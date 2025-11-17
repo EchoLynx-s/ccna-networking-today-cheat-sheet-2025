@@ -25,24 +25,24 @@ This module introduces:
 
 ## Progress Overview (1.0 – 1.4)
 
-| Section | Title                                | Status      |
-|--------|--------------------------------------|------------|
-| 1.0    | Introduction                         | In progress |
-| 1.0.1  | Why should I take this module?       | ✅ Completed |
-| 1.0.2  | What will I learn to do in this module? | ✅ Completed |
-| 1.0.3  | Download and Install Packet Tracer   | ✅ Completed (content given) |
-| 1.0.4  | Video – Getting Started in Cisco Packet Tracer | In progress |
-| 1.0.5  | Packet Tracer – Logical and Physical Mode Exploration | In progress |
-| 1.1    | Networks Affect our Lives            | In progress |
-| 1.1.1  | Networks Connect Us                  | ✅ Completed |
-| 1.1.2  | Video – The Cisco Networking Academy Learning Experience | Start |
-| 1.1.3  | No Boundaries                        | ✅ Completed |
-| 1.2    | Network Components                   | In progress |
-| 1.2.x  | Host roles, P2P, devices, media      | Start |
-| 1.3    | Network Representations and Topologies | In progress |
-| 1.3.x  | Network representations, topology diagrams | Start |
-| 1.4    | Common Types of Networks             | In progress |
-| 1.4.x  | Network sizes, LANs/WANs, internet, intranet/extranet | Start |
+| Section | Title                                                   |
+|--------|----------------------------------------------------------|
+| 1.0    | Introduction                                             |
+| 1.0.1  | Why should I take this module?                           |
+| 1.0.2  | What will I learn to do in this module?                  | 
+| 1.0.3  | Download and Install Packet Tracer                       | 
+| 1.0.4  | Video – Getting Started in Cisco Packet Tracer           |
+| 1.0.5  | Packet Tracer – Logical and Physical Mode Exploration    |
+| 1.1    | Networks Affect our Lives                                |
+| 1.1.1  | Networks Connect Us                                      |
+| 1.1.2  | Video – The Cisco Networking Academy Learning Experience |
+| 1.1.3  | No Boundaries                                            |
+| 1.2    | Network Components                                       |
+| 1.2.x  | Host roles, P2P, devices, media                          |
+| 1.3    | Network Representations and Topologies                   |
+| 1.3.x  | Network representations, topology diagrams               |
+| 1.4    | Common Types of Networks                                 |  
+| 1.4.x  | Network sizes, LANs/WANs, internet, intranet/extranet    |
 
 ---
 
