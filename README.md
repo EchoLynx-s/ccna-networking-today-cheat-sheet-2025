@@ -841,8 +841,6 @@ Together, these questions confirm that you understand not just the definitions, 
 
 Modern networks don’t just move data between PCs. They have to support a growing mix of devices, apps, and services: phones, tablets, video meetings, cloud apps, smart homes, and more. This section introduces the big trends you need to recognize as a NetAcad / CCNA student.
 
----
-
 #### 1.7.1 Recent Trends
 
 **Key idea:** Networks must evolve constantly as new end-user devices and applications appear.
@@ -857,8 +855,6 @@ You should be able to name and briefly explain these current trends:
 - **Powerline networking** – using existing electrical wiring to extend the home LAN.
 - **Wireless broadband** – high-speed wireless access where wired connections are difficult or unavailable.
 
----
-
 #### 1.7.2 Bring Your Own Device (BYOD)
 
 **Key idea:** *Any device, any ownership, anywhere* on the network.
@@ -871,8 +867,6 @@ You should be able to name and briefly explain these current trends:
   - Control and secure access for personal devices.
 
 Remember: **BYOD = any device, with any ownership, used anywhere.**
-
----
 
 #### 1.7.3 Online Collaboration
 
@@ -889,8 +883,6 @@ Remember: **BYOD = any device, with any ownership, used anywhere.**
   - Distributed project teams.
   - Group work in education (students helping each other, team assignments, etc.).
 
----
-
 #### 1.7.4 Video Communications
 
 **Key idea:** Video is now a critical part of communication and collaboration.
@@ -905,8 +897,6 @@ Remember: **BYOD = any device, with any ownership, used anywhere.**
   - Different cultures and time zones.
 - Because video is **high-bandwidth and time-sensitive**, networks must be designed to handle it (QoS, enough capacity, low latency).
 
----
-
 #### 1.7.5 Video – Cisco Webex for Huddles
 
 **Key idea:** Collaboration tools integrate into everyday workspaces.
@@ -918,8 +908,6 @@ The Webex “huddles” video illustrates:
 - Everyone sees the same content in real time, whether in the room or remote.
 
 Takeaway: modern networks + tools like Webex enable **fast, informal collaboration** without needing big conference rooms.
-
----
 
 #### 1.7.6 Cloud Computing
 
@@ -957,8 +945,6 @@ Cloud providers build and operate **large data centers** and often:
   - Shared by organizations with similar needs (e.g., multiple hospitals).
   - Customized for specific **security, privacy, and compliance** requirements.
 
----
-
 #### 1.7.7 Technology Trends in the Home (Smart Home)
 
 **Key idea:** Networking is transforming everyday life through **smart home technology**.
@@ -981,8 +967,6 @@ As high-speed internet becomes more common, expect more connected:
 - Lights, thermostats, security systems.
 - Cars, charging stations, and other home devices.
 
----
-
 #### 1.7.8 Powerline Networking
 
 **Key idea:** Use **existing electrical wiring** as a network medium inside the home.
@@ -1001,7 +985,6 @@ Limitations:
 - Not a full replacement for dedicated network cabling or Wi-Fi.
 - Best seen as an **alternative/backup** when cable or wireless isn’t practical.
 
----
 ### 1.7.9 Wireless Broadband
 
 **Wireless Internet Service Provider (WISP)**  
@@ -1014,8 +997,6 @@ Limitations:
 - Uses the **same cellular technology as smartphones**.  
 - An **external antenna** on the house provides **wireless or wired connectivity** to devices inside.  
 - Competes directly with **DSL and cable** in many regions.
-
----
 
 ### 1.7.10 Check Your Understanding – Network Trends
 
@@ -1039,7 +1020,6 @@ Limitations:
 
 > Use these hints to choose the right option yourself. I’ll tell you **what concept** the question is about and why the other options don’t fit.
 
----
 
 ### Q1 – Which attack slows down or crashes equipment and programs?
 
@@ -1057,8 +1037,6 @@ Why the other choices don’t match:
 - **Encrypted remote connections** are about secure access, not attacks.
 - **Viruses/worms/Trojans** are malicious code installed on devices; they can cause damage, but the classic exam phrase “slow down or crash equipment and programs” in networking context points to traffic flooding.
 
----
-
 ### Q2 – Which option creates a secure connection for remote workers?
 
 Here they want the technology that lets someone **work from home or on the road** and still safely reach the company network.
@@ -1071,8 +1049,6 @@ Why the others don’t fit:
 - Malware types (virus/worm/Trojan) obviously don’t *secure* anything.
 - A **firewall** protects the perimeter but isn’t itself the remote access connection.
 - The **“first-day attack” term** and the **overloading attack** are both *threats*, not remote-access solutions.
-
----
 
 ### Q3 – Which option blocks unauthorized access to your network?
 
@@ -1087,8 +1063,6 @@ Why the others don’t match:
 - The **remote-worker tunnel** provides secure access *for authorized users*, but it doesn’t by itself filter all incoming traffic.
 - The **overloading attack** and the **“first-day attack”** are both threats, not protective mechanisms.
 
----
-
 ### Q4 – Which option describes an attack that occurs on the first day a vulnerability becomes known?
 
 This one is almost straight from the text:
@@ -1100,8 +1074,6 @@ Why others don’t fit:
 - Malware like viruses/worms/Trojans can exist for years; the question is specifically about **timing** relative to discovery.
 - The resource-overload attack focuses on **flooding** and service disruption, not timing.
 - A **firewall** and **remote-access tunnel** are defenses, not attacks.
-
----
 
 ### Q5 – Which option describes malicious code running on user devices?
 
@@ -1117,8 +1089,6 @@ Why the others don’t fit:
 - The **remote-worker tunnel** and **firewall** are defensive tools.
 - The **“first-day attack”** describes timing of an exploit, not the form of the code.
 - The **overloading attack** is about flooding resources over the network, not malicious programs installed on the host.
-
----
 
 Use these descriptions to match each question with the option in your quiz UI. 😉
 
@@ -1157,8 +1127,6 @@ CCNA is Cisco’s *entry-level networking certification* that proves you underst
 - **Continuing education**
   - You can renew CCNA and higher certs using **CE credits** and further training instead of only re-taking exams.
 
----
-
 ### 1.9.2 Networking Jobs
 
 **Goal:** understand how CCNA maps to real jobs and how to search for them.
@@ -1185,8 +1153,6 @@ CCNA is Cisco’s *entry-level networking certification* that proves you underst
   - Junior **Network Administrator / Engineer**
   - NOC or operations roles
 - Makes your CV stand out vs. people with only generic IT experience.
-
----
 
 ### 1.9.3 Lab – Research IT and Networking Job Opportunities (guide)
 
