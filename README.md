@@ -23,8 +23,6 @@ This module introduces:
 
 ---
 
-## Progress Overview (1.0 – 1.4)
-
 ## Module 1 – Networking Today: Structure
 
 | ID     | Title                                                   |
