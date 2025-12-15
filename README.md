@@ -1,11 +1,128 @@
-# CCNA: Networking Today — 2025 Cheat Sheet (EchoLynx)
+# CCNA — Module 1: Networking Today (ITN)
 
-A structured, practical companion for the **Networking Today** module from Cisco Networking Academy (CCNA).  
-This repo tracks my progress and notes as I work through the module and build a solid foundation in networking for my cybersecurity path.
+> **Purpose:** Build a strong foundation in networking fundamentals (why networks matter, how they’re built, and what roles/devices/services make them work).
 
-> ⚠️ Not official Cisco material. These are my personal study notes and summaries.
+## Use this README for
 
----
+- **Studying later:** refresh the core ideas quickly before quizzes/exams.
+- **Recruiter/portfolio:** demonstrates you can explain fundamentals clearly, use correct terminology, and document learning in a structured way.
+
+## Recruiter angle
+
+If someone asks “What did you actually learn?”, this module lets you talk confidently about:
+
+- **Network types & scope:** LAN, WAN, Internet, intranet, extranet
+- **Core components:** end devices, intermediary devices, network media
+- **Design goals:** fault tolerance, scalability, QoS, security
+- **Topologies & diagrams:** logical vs physical, how to read/describe them
+- **Trends:** BYOD, IoT, cloud and why they change networks
+
+## How to navigate
+
+1. Skim **Module Overview** and **Module Structure**  
+2. Read section summaries (1.0 → 1.10)  
+3. Use each **Check Your Understanding** block for quick recall
+
+## Table of Contents
+
+- [Use this README for](#use-this-readme-for)
+- [Recruiter angle](#recruiter-angle)
+- [How to navigate](#how-to-navigate)
+- [Module Overview](#module-overview)
+- [Module 1 – Networking Today: Structure](#module-1-networking-today-structure)
+- [1.0 Introduction & Packet Tracer](#10-introduction-packet-tracer)
+  - [1.0.1 Why should I take this module?](#101-why-should-i-take-this-module)
+  - [1.0.2 What will I learn to do in this module?](#102-what-will-i-learn-to-do-in-this-module)
+  - [1.0.3 Download and Install Packet Tracer](#103-download-and-install-packet-tracer)
+  - [1.0.4 Video – Getting Started in Cisco Packet Tracer](#104-video-getting-started-in-cisco-packet-tracer)
+  - [1.0.5 Packet Tracer – Logical and Physical Mode Exploration](#105-packet-tracer-logical-and-physical-mode-exploration)
+- [1.1 Networks Affect Our Lives](#11-networks-affect-our-lives)
+  - [1.1.1 Networks Connect Us](#111-networks-connect-us)
+  - [1.1.2 Video – The Cisco Networking Academy Learning Experience](#112-video-the-cisco-networking-academy-learning-experience)
+  - [1.1.3 No Boundaries](#113-no-boundaries)
+- [1.2 Network Components](#12-network-components)
+  - [1.2.1 Host Roles](#121-host-roles)
+  - [1.2.2 Peer-to-Peer (P2P)](#122-peer-to-peer-p2p)
+  - [1.2.3 End Devices](#123-end-devices)
+  - [1.2.4 Intermediary Devices](#124-intermediary-devices)
+  - [1.2.5 Network Media](#125-network-media)
+    - [**1. Copper Cables**](#1-copper-cables)
+    - [**2. Fiber-Optic Cables**](#2-fiber-optic-cables)
+    - [**3. Wireless Transmission**](#3-wireless-transmission)
+  - [Choosing the Right Media](#choosing-the-right-media)
+  - [1.2.6 Check Your Understanding – Network Components](#126-check-your-understanding-network-components)
+- [1.3 Network Representations and Topologies](#13-network-representations-and-topologies)
+  - [1.3.1 Network Representations](#131-network-representations)
+  - [1.3.2 Topology Diagrams](#132-topology-diagrams)
+    - [Physical Topology Diagrams](#physical-topology-diagrams)
+    - [Logical Topology Diagrams](#logical-topology-diagrams)
+  - [1.3.3 Check Your Understanding – Network Representations and Topologies](#133-check-your-understanding-network-representations-and-topologies)
+- [1.4 Common Types of Networks](#14-common-types-of-networks)
+  - [1.4.1 Networks of Many Sizes](#141-networks-of-many-sizes)
+  - [1.4.2 LANs and WANs](#142-lans-and-wans)
+    - [Local Area Networks (LANs)](#local-area-networks-lans)
+    - [Wide Area Networks (WANs)](#wide-area-networks-wans)
+  - [1.4.3 The Internet](#143-the-internet)
+  - [1.4.4 Intranets and Extranets](#144-intranets-and-extranets)
+    - [Intranet – “Company Only”](#intranet-company-only)
+    - [Extranet – “Trusted Outsiders”](#extranet-trusted-outsiders)
+    - [Relationship to the Internet](#relationship-to-the-internet)
+  - [1.4.5 Check Your Understanding – Common Types of Networks](#145-check-your-understanding-common-types-of-networks)
+- [1.5. Internet Connections](#15-internet-connections)
+  - [1.5.1 Internet Access Technologies](#151-internet-access-technologies)
+  - [1.5.2 Home and Small Office Internet Connections](#152-home-and-small-office-internet-connections)
+  - [1.5.3 Business Internet Connections](#153-business-internet-connections)
+  - [1.5.4 The Converging Network](#154-the-converging-network)
+  - [From Separate to Converged](#from-separate-to-converged)
+  - [1.5.5 Packet Tracer – Network Representation](#155-packet-tracer-network-representation)
+    - [What this activity is about](#what-this-activity-is-about)
+    - [Part 1 – Identifying components](#part-1-identifying-components)
+    - [Part 2 – Understanding device roles](#part-2-understanding-device-roles)
+    - [Part 3 – LANs, WANs, and the Internet](#part-3-lans-wans-and-the-internet)
+    - [Challenge section](#challenge-section)
+- [1.6. Reliable Networks](#16-reliable-networks)
+  - [1.6.1 Network Architecture](#161-network-architecture)
+  - [1.6.2 Fault Tolerance](#162-fault-tolerance)
+  - [1.6.3 Scalability](#163-scalability)
+  - [1.6.4 Quality of Service (QoS)](#164-quality-of-service-qos)
+  - [1.6.5 Network Security](#165-network-security)
+  - [1.6.6 Check Your Understanding – Reliable Networks](#166-check-your-understanding-reliable-networks)
+  - [1.7 Network Trends](#17-network-trends)
+    - [1.7.1 Recent Trends](#171-recent-trends)
+    - [1.7.2 Bring Your Own Device (BYOD)](#172-bring-your-own-device-byod)
+    - [1.7.3 Online Collaboration](#173-online-collaboration)
+    - [1.7.4 Video Communications](#174-video-communications)
+    - [1.7.5 Video – Cisco Webex for Huddles](#175-video-cisco-webex-for-huddles)
+    - [1.7.6 Cloud Computing](#176-cloud-computing)
+    - [1.7.7 Technology Trends in the Home (Smart Home)](#177-technology-trends-in-the-home-smart-home)
+    - [1.7.8 Powerline Networking](#178-powerline-networking)
+  - [1.7.9 Wireless Broadband](#179-wireless-broadband)
+  - [1.7.10 Check Your Understanding – Network Trends](#1710-check-your-understanding-network-trends)
+  - [Q1 – Which attack slows down or crashes equipment and programs?](#q1-which-attack-slows-down-or-crashes-equipment-and-programs)
+  - [Q2 – Which option creates a secure connection for remote workers?](#q2-which-option-creates-a-secure-connection-for-remote-workers)
+  - [Q3 – Which option blocks unauthorized access to your network?](#q3-which-option-blocks-unauthorized-access-to-your-network)
+  - [Q4 – Which option describes an attack that occurs on the first day a vulnerability becomes known?](#q4-which-option-describes-an-attack-that-occurs-on-the-first-day-a-vulnerability-becomes-known)
+  - [Q5 – Which option describes malicious code running on user devices?](#q5-which-option-describes-malicious-code-running-on-user-devices)
+- [1.9 The IT Professional](#19-the-it-professional)
+  - [1.9.1 CCNA](#191-ccna)
+  - [1.9.2 Networking Jobs](#192-networking-jobs)
+  - [1.9.3 Lab – Research IT and Networking Job Opportunities (guide)](#193-lab-research-it-and-networking-job-opportunities-guide)
+    - [Step-by-step workflow](#step-by-step-workflow)
+  - [Reflection Questions (fill these in for your lab report)](#reflection-questions-fill-these-in-for-your-lab-report)
+- [1.10 – What did I learn in this module?](#110-what-did-i-learn-in-this-module)
+  - [Networks Affect Our Lives](#networks-affect-our-lives)
+  - [Network Components](#network-components)
+  - [Network Representations and Topologies](#network-representations-and-topologies)
+  - [Common Types of Networks](#common-types-of-networks)
+  - [Internet Connections](#internet-connections)
+  - [Reliable Networks](#reliable-networks)
+  - [Network Trends](#network-trends)
+  - [Network Security](#network-security)
+  - [The IT Professional](#the-it-professional)
+- [How to Use This Repo](#how-to-use-this-repo)
+- [Disclaimer](#disclaimer)
+
+<!-- toc -->
 
 ## Module Overview
 
@@ -1422,3 +1539,24 @@ Modern networking trends that affect organizations and consumers:
 - All trademarks and course names belong to Cisco Systems, Inc.  
 - This repository contains **my own summaries and interpretations** and is not endorsed by Cisco.  
 - No exam questions or proprietary content are reproduced; everything here is high-level study material only.
+
+---
+
+## Quick recap (1–2 minutes)
+
+- Networks connect people, apps, and data — but **design choices** decide reliability, performance, and security.
+- A basic network has **end devices**, **intermediary devices**, and **media**.
+- **LAN vs WAN** is mostly scope/ownership; the **Internet** is a network of networks.
+- **Intranet/extranet** describe controlled access and who is allowed in.
+- Good designs consider **fault tolerance**, **scalability**, **QoS**, and **security**.
+- Physical vs logical views help you troubleshoot and communicate designs.
+- Common trends (BYOD/IoT/cloud) increase endpoint count and change where services live.
+
+## Recruiter-friendly talking points
+
+Use these as “sound bites” in interviews or on your CV:
+
+- “I can explain the difference between LAN, WAN, Internet, intranet, and extranet — and why that matters for security and access control.”
+- “I understand the roles of end devices, intermediary devices, and media — and how they work together in a real network.”
+- “When discussing network design, I naturally think in fault tolerance, scalability, QoS, and security.”
+
