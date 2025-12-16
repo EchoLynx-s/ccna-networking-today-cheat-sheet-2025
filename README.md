@@ -459,24 +459,29 @@ Each medium has its own strengths, making them suitable for different use cases�
 
 ### 1.2.6 Check Your Understanding – Network Components
 
-This short quiz is there to make sure the core ideas from **1.2 Network Components** are clear before moving on.
+These are the **exact questions** from the NetAcad *Check Your Understanding* for this section.
 
-The questions focus on three key points:
+#### Q1
+**Which of the following is the name for all computers connected to a network that participate directly in network communication?**
+- Servers  
+- Intermediary devices  
+- ✅ Hosts  
+- Media  
 
-- **What we call devices that participate directly in communication**  
-  You need to recognize that all computers and similar devices that send/receive data on the network are referred to as *hosts*.
+#### Q2
+**When data is encoded as pulses of light, which media is being used to transmit the data?**
+- Wireless  
+- ✅ Fiber-optic cable  
+- Copper cable  
 
-- **How different media carry data**  
-  One question checks that you can match the medium to how data is encoded—for example, knowing which type of cable carries data as **pulses of light** (fiber-optic).
+#### Q3
+**Which two devices are intermediary devices? (Choose two)**
+- Hosts  
+- ✅ Routers  
+- Servers  
+- ✅ Switches  
 
-- **Which devices are intermediary devices**  
-  You also confirm that you can distinguish end devices from the infrastructure devices in the middle of the network—specifically, identifying things like **routers and switches** as intermediary devices rather than hosts or servers.
-
-Overall, this checkpoint makes sure you can correctly name the main components of a network and understand their basic roles before you dive deeper into later sections.
-
-
----
-
+**Quick exam note:** *Hosts* generate/consume data. *Intermediary devices* (switches/routers) move traffic across the network.
 ## 1.3 Network Representations and Topologies
 
 ### 1.3.1 Network Representations
@@ -526,29 +531,31 @@ Being able to read and switch between these two types of diagrams is a core netw
 
 ### 1.3.3 Check Your Understanding – Network Representations and Topologies
 
-This review quiz makes sure you understand the key terminology from **1.3.1** and **1.3.2** before moving on.
+These are the **exact questions** from the NetAcad *Check Your Understanding* for this section.
 
-It focuses on three main ideas:
+#### Q1
+**Which connection physically connects the end device to the network?**
+- Port  
+- ✅ NIC  
+- Interface  
 
-1. **How end devices physically connect to the network**  
-   - You need to know that the hardware component inside the device that actually plugs it into the network is the **network interface card (NIC)**.  
-   - Ports and interfaces exist on networking devices, but the NIC is what gives an end device its physical network connection.
+#### Q2
+**Which connections are specialized ports on a networking device that connect to individual networks?**
+- Port  
+- NIC  
+- ✅ Interface  
 
-2. **Specialized ports on networking devices**  
-   - On routers and switches, certain ports are **interfaces** that connect to specific networks or segments.  
-   - These interfaces are what we label `Fa0/1`, `G0/1`, etc., and they’re used when drawing logical topologies and configuring routing.
+#### Q3
+**Which type of network topology lets you see which end devices are connected to which intermediary devices and what media is being used?**
+- Physical topology  
+- ✅ Logical topology  
 
-3. **Physical vs logical topologies**  
-   - One question checks that you know which topology view shows **which end devices are connected to which intermediary devices and what media is used** → that’s the **logical** view.  
-   - Another checks which view shows the **actual physical location of devices and cabling** → that’s the **physical** topology.
+#### Q4
+**Which type of network topology lets you see the actual location of intermediary devices and cable installation?**
+- ✅ Physical topology  
+- Logical topology  
 
-Overall, this section confirms that you can:
-
-- Use the terms **NIC**, **port**, and **interface** correctly  
-- Distinguish clearly between **physical** and **logical** topology diagrams and what each one is used for.
-
----
-
+**Quick exam note:** *Physical* = “where cables/devices are”. *Logical* = “how data flows / who talks to who”.
 ## 1.4 Common Types of Networks
 
 ### 1.4.1 Networks of Many Sizes
@@ -670,22 +677,30 @@ Security and access controls determine who can move from the public internet int
 
 ### 1.4.5 Check Your Understanding – Common Types of Networks
 
-This quiz validates that you can correctly match each **network type** to its purpose and scope.
+These are the **exact questions** from the NetAcad *Check Your Understanding* for this section.
 
-It checks that you understand:
+#### Q1
+**Which network infrastructure provides access to users and end devices in a small geographical area, which is typically a network in a department in an enterprise, a home, or small business?**
+- Extranet  
+- Intranet  
+- ✅ LAN  
+- WAN  
 
-- **LAN (Local Area Network)**  
-  A network that connects users and end devices within a **small geographic area** such as a home, small office, or department inside a building.
+#### Q2
+**Which network infrastructure might an organization use to provide secure and safe access to individuals who work for a different organization but require access to the organization’s data?**
+- ✅ Extranet  
+- Intranet  
+- LAN  
+- WAN  
 
-- **Extranet**  
-  The infrastructure used when an organization wants to give **secure access to its resources to people in another organization** (suppliers, partners, customers) while still keeping control.
+#### Q3
+**Which network infrastructure provides access to other networks over a large geographical area, which is often owned and managed by a telecommunications service provider?**
+- Extranet  
+- Intranet  
+- LAN  
+- ✅ WAN  
 
-- **WAN (Wide Area Network)**  
-  A network that provides connectivity over a **large geographic area**, usually built and managed by a **telecommunications or internet service provider**, and used to interconnect multiple LANs.
-
-The goal of this section is to confirm you can clearly distinguish **LAN vs WAN** and **intranet vs extranet** based on who uses the network and how large an area it covers.
-
----
+**Quick exam note:** LAN = local. WAN = service-provider scale. Extranet = controlled external access (partners/contractors).
 ## 1.5. Internet Connections
 
 ### 1.5.1 Internet Access Technologies
@@ -943,17 +958,37 @@ Together, these measures protect both the network itself and the information mov
 
 ### 1.6.6 Check Your Understanding – Reliable Networks
 
-This quiz checks whether you can connect the four core characteristics of a **reliable network** to real design choices:
+These are the **exact questions** from the NetAcad *Check Your Understanding* for this section.
 
-- **Scalability** – Achieved when designers follow **open standards and protocols**, making it easy to plug in new devices and networks without redesigning everything.
-- **Security** – Tied to the **CIA triad**: confidentiality, integrity, and availability. These three requirements define what “secure” means for data and services.
-- **Quality of Service (QoS)** – The policy a router uses to **prioritize certain traffic types**, such as giving VoIP calls higher priority than web browsing when the network is congested.
-- **Fault tolerance** – Provided by **redundancy**: having multiple paths to a destination so that if one device or link fails, traffic can automatically use an alternate route.
+#### Q1
+**When designers follow accepted standards and protocols, which of the four basic characteristics of network architecture is achieved?**
+- Fault tolerance  
+- ✅ Scalability  
+- QoS  
+- Security  
 
-Together, these questions confirm that you understand not just the definitions, but how each characteristic shows up in real network designs.
+#### Q2
+**Confidentiality, integrity, and availability are requirements of which of the four basic characteristics of network architecture?**
+- Fault tolerance  
+- Scalability  
+- QoS  
+- ✅ Security  
 
----
+#### Q3
+**With which type of policy, a router can manage the flow of data and voice traffic, giving priority to voice communications if the network experiences congestion?**
+- Fault tolerance  
+- Scalability  
+- ✅ QoS  
+- Security  
 
+#### Q4
+**Having multiple paths to a destination is known as redundancy. This is an example of which characteristic of network architecture?**
+- ✅ Fault tolerance  
+- Scalability  
+- QoS  
+- Security  
+
+**Quick exam note:** the “big 4” here are **fault tolerance, scalability, QoS, and security**.
 ### 1.7 Network Trends
 
 Modern networks don’t just move data between PCs. They have to support a growing mix of devices, apps, and services: phones, tablets, video meetings, cloud apps, smart homes, and more. This section introduces the big trends you need to recognize as a NetAcad / CCNA student.
@@ -1117,27 +1152,39 @@ Limitations:
 
 ### 1.7.10 Check Your Understanding – Network Trends
 
-**Q1. Which feature is a good conferencing tool to use with others who are located elsewhere in your city, or even in another country?**  
- **Answer: _Video communications_**  
+These are the **exact questions** from the NetAcad *Check Your Understanding* for this section.
 
-**Q2. Which feature describes using personal tools to access information and communicate across a business or campus network?**  
- **Answer: _BYOD (Bring Your Own Device)_**  
+#### Q1
+**Which feature is a good conferencing tool to use with others who are located elsewhere in your city, or even in another country?**
+- BYOD  
+- ✅ Video communications  
+- Cloud computing  
 
-**Q3. Which feature contains options such as Public, Private, Custom, and Hybrid?**  
- **Answer: _Cloud computing_**  
+#### Q2
+**Which feature describes using personal tools to access information and communicate across a business or campus network?**
+- ✅ BYOD  
+- Video communications  
+- Cloud computing  
 
-**Q4. Which feature is being used when connecting a device to the network using an electrical outlet?**  
- **Answer: _Powerline_**  
+#### Q3
+**Which feature contains options such as Public, Private, Custom and Hybrid?**
+- BYOD  
+- Video communications  
+- ✅ Cloud computing  
 
-**Q5. Which feature uses the same cellular technology as a smartphone?**  
- **Answer: _Wireless broadband_**
+#### Q4
+**Which feature is being used when connecting a device to the network using an electrical outlet?**
+- Smart home technology  
+- ✅ Powerline  
+- Wireless broadband  
 
- ---
- ## 1.8.3 Network Security – Quiz Helper (No direct answers)
+#### Q5
+**Which feature uses the same cellular technology as a smartphone?**
+- Smart home technology  
+- Powerline  
+- ✅ Wireless broadband  
 
-> Use these hints to choose the right option yourself. I’ll tell you **what concept** the question is about and why the other options don’t fit.
-
-
+**Quick exam note:** BYOD + cloud + collaboration tools are common “network trends” themes, along with alternate access technologies (powerline, cellular/wireless broadband).
 ### Q1 – Which attack slows down or crashes equipment and programs?
 
 This question is about an attack whose **main goal is to overload resources** so that normal work can’t be done.
